@@ -1,0 +1,9 @@
+@mixin before_line {
+    &:before {
+        content: '';
+        position: absolute;
+        width: 80px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+    }
+}
